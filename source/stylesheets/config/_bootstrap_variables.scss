@@ -11,6 +11,7 @@ $font-size-base: 18px;
 
 // Colors
 $gray-base:       $gray;
+$gray-darker:     $lighten(@gray-base, 13.5%)
 $brand-primary:   $blue;
 $brand-success:   $green;
 $brand-info:      $yellow;
@@ -23,3 +24,19 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+
+$red: #EE5F5B;
+$blue: #469AE0;
+$yellow: #FDB631;
+$orange: #E67E22;
+$green: #32B796;
+$gray: #000000;
+$light-gray: #F4F4F4;
+
+$red: #f8ab99;
+$blue: #34c3b9;
+$yellow: #f0c310;
+$orange: #f49c43;
+$green: #c2d54a;
+$gray: #000000;
+$light-gray: #F4F4F4;
