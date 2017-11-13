@@ -1,0 +1,8 @@
+- name: paris
+  places: 80
+  # image: url('images')
+- name: lyon
+  places: 120
+- name: rio
+  places: 55
+

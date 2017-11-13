@@ -1,0 +1,95 @@
+---
+title: Le Wagon - Middleman
+---
+
+<div id="home">
+  <div class="home-content">
+    <%= image_tag "logo.png", width: "200" %>
+
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/paris');">
+      <div class="banner-content">
+        <h1>Welcome Home</h1>
+        <p>Book unique homes and experience a city like a local.</p>
+        <a class="btn btn-primary btn-lg">Search</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Recents flats</h2>
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/paris');">
+            <div class="card-category">Paris, France</div>
+            <div class="card-description">
+              <h2>Greg's home</h2>
+              <p>Charming room in Montmartre</p>
+
+              <!-- <ul class="list-inline text-center">
+                <% [{name: "AurelDbs", star: 4}, {name: "Begreg", star:5 }, {name: "Romain", star: 3}].each do |gh_username| %>
+                  <li>
+                    <% gh_username[:star].times do %>
+                      <i class="fa fa-star"></i>
+                      <% end %>
+                  </li>
+                <% end %>
+              </ul> -->
+
+               <div class="star-votes">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <img class="card-user" src="images/greg.jpg">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/tokyo');">
+            <div class="card-category">Paris, France</div>
+            <div class="card-description">
+              <h2>Aurel's home</h2>
+              <p>Small flat in Tokyo</p>
+              <div class="star-votes">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <img class="card-user" src="images/aurel.jpg">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/london');">
+            <div class="card-category">London, UK</div>
+            <div class="card-description">
+              <h2>Romain's home</h2>
+              <p>Nice flat in Picadilly</p>
+              <div class="star-votes">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <p class="about">
+      <%= link_to "More about this template", "about.html" %>
+    </p> -->
+  </div>
+</div>
